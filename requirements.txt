@@ -11,6 +11,8 @@
 # Core Deep Learning & Computer Vision
 torch>=2.0.0
 torchvision>=0.15.0
+transformers>=4.38.0
+safetensors>=0.4.0
 
 # Data Processing & Numerical Computing
 numpy>=1.24.0

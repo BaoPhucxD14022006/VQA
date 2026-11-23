@@ -1,0 +1,45 @@
+# Byte-compiled / Python caches
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Large dataset archives & extracted datasets (never push multi-GB raw data)
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.7z
+data/
+dataset/
+datasets/
+nckh-vqa/
+
+# Temporary working directories & feature caches
+kaggle_working/
+feature_cache/
+attention_viz/
+submission.csv
+*.part.npy
+*.tmp*
+
+# Environment & Secrets
+.env
+.env.*
+kaggle.json
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
